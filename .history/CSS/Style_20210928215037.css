@@ -1,0 +1,21 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: black;
+    color: white;
+}
+header{
+    width: 1000px;
+    height: 60px;
+    margin: auto;
+    background: #444;
+}
+header h1{
+    font-size: 50px;
+    text-align: center;
+
+    
+}

@@ -1,0 +1,14 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: black;
+    color: white;
+}
+header{
+    width: 1000px;
+    margin: auto;
+    background: #444;
+}

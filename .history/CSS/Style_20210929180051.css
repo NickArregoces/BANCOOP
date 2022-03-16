@@ -1,0 +1,135 @@
+
+*{
+    margin: 0 auto;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(255, 255, 255);
+    width: 90%;
+    color: rgb(3, 3, 3);
+}
+header{
+    width: 100%;
+    margin-top: 10px;
+    background: rgb(173, 173, 173);
+    border-top-left-radius:  18px;
+    border-top-right-radius:  18px;
+    height: 150px;
+    display: block;
+}
+    header h1{
+        font-size: 70px;
+        text-align: center;
+        line-height: 60px;    
+    }
+    header h3{
+        font-size: 30px;
+        text-align: center;
+    
+}
+nav.barra{
+    background: rgb(5, 5, 5);
+    height: 20px;
+}
+
+ul.menu{
+    border-bottom-left-radius: 10px 20px;
+    border-bottom-right-radius: 10px 20px;
+    background: rgb(255, 187, 0);
+    height: 60px;
+    list-style: none;
+    padding: 0;
+    max-width: 1000px;
+    margin: auto;
+}
+    .menu li a{
+        text-decoration: none;
+        color:black;
+        padding: 20px;
+        display: block;
+    }
+    .menu li {
+        display: inline-block;
+        text-align:center
+    }
+
+
+
+.section{
+    width: 40%;
+    float: left;
+
+}
+    form{
+        background: rgb(173, 173, 173);
+        border-top-left-radius: 18px;
+        border-top-right-radius: 18px;
+        margin-top: 20px;
+        margin-right:10px;
+        margin-bottom: 10px;
+        height: 250px;
+    }
+        .login h2{
+            text-align: center;
+            background: black;
+            border-top-left-radius: 18px;
+            border-top-right-radius: 18px;
+        }
+        form input{
+            padding: 5px;
+            display: block;
+            border: solid rgb(149, 149, 149);
+        }
+        button{
+            
+            background-position: center;
+            background: rgb(255, 187, 0);
+            border: solid black;
+        }
+
+    article {
+        height: 250px;
+        background: rgb(0, 0, 0);
+        margin-top: 20px;
+        margin-right:10px;
+        margin-bottom: 10px;
+    }
+        article h2{
+            font-size: 30px;
+            text-align: center;
+            line-height: 40px;
+        }
+
+
+.punlicidad{
+    width: 40%;
+    float: right;
+}
+aside{
+    width: 100%;
+    height: 300px;
+    background: blueviolet;
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+}
+    aside h2{
+        font-size: 30px;
+        text-align: center;
+        line-height: 40px;
+    }
+
+
+footer{
+    background: black;
+    clear: both;
+    border-radius: 10px;
+}
+    footer h2{
+        font-size: 30px;
+        text-align: center;
+        line-height: 40px;
+        color: white;
+        font-style:italic;
+    }

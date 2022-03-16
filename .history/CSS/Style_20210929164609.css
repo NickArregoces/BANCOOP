@@ -1,0 +1,105 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: rgb(255, 255, 255);
+    color: rgb(3, 3, 3);
+}
+header{
+    width: 100%;
+    margin: auto;
+    background: rgb(173, 173, 173);
+    border-top-left-radius:  18px;
+    border-top-right-radius:  18px;
+    height: 150px;
+}
+    header h1{
+        font-size: 80px;
+        text-align: center;
+        line-height: 60px;    
+    }
+    header h3{
+        font-size: 30px;
+        text-align: center;
+    
+}
+nav.barra{
+    background: rgb(5, 5, 5);
+    height: 20px;
+}
+
+nav.Menu{
+    background: rgb(255, 187, 0);
+    height: 60px;
+}
+    nav.Menu h2{
+        font-size: 30px;
+        text-align: center;
+        line-height: 60px;
+}
+form{
+    background: rgb(173, 173, 173);
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+    margin-right:10px;
+    margin-bottom: 10px;
+}
+    .login h2{
+        text-align: center;
+        background: black;
+        border-top-left-radius: 18px;
+        border-top-right-radius: 18px;
+    }
+    form input{
+        border: solid rgb(149, 149, 149);
+    }
+    button{
+        background-position: center;
+        background: rgb(255, 187, 0);
+        border: solid black;
+    }
+
+article {
+    float:left;
+    background: rgb(0, 255, 55);
+    margin-top: 10px;
+    margin-right:10px;
+    margin-bottom: 10px;
+}
+    article h2{
+        font-size: 30px;
+        text-align: center;
+        line-height: 40px;
+
+    }
+aside{
+    width: 60%;
+    height: 300px;
+    background: blueviolet;
+    margin-top: 10px;
+    float: right;
+    margin-bottom: 10px;
+}
+aside h2{
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+}
+footer{
+    background: black;
+    clear: both;
+    border-radius: 10px;
+}
+footer h2{
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-style:italic;
+
+}

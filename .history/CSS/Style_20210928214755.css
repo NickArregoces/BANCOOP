@@ -1,0 +1,15 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: black;
+    color: white;
+}
+header{
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    background: #444;
+}
